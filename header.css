@@ -29,5 +29,16 @@ a{
     text-decoration: none;
     color: inherit;
     margin-left: 28px;
+} 
+
+#botao-compra{
+    background-color: #252c41;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    padding: 18px 60px 20px;
 }
 
