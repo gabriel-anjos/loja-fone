@@ -1,31 +1,40 @@
 body{
     background-color: cadetblue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Arial, Helvetica, sans-serif
 }
 
-header{
-    background-color:#e24647;
+
+.header-store{
+    
     color: white;
     overflow: hidden;
-    margin-left: 115px;
-    margin-right: 115px;
-    padding: 55px 60px 96px 60px;
-}
-
-nav{
-    float: right;
-    font-family: 'Segoe UI', 'Roboto', sans-serif;
     
 }
 
-h1{
+.navigation{
+    float: right;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    
+    
+}
+
+.title{
     font-family: Arial, 'Roboto', sans-serif;  
     font-size: 40px;
     float: left;
 }
 
-a{
+.action{
     text-decoration: none;
     color: inherit;
+    margin-left: 28px;
 }
+
+.last {
+    margin-right: 0;
+}
+
+
+
+
 
