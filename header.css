@@ -5,25 +5,27 @@ body{
 
 header{
     background-color:#e24647;
+    color: white;
+    overflow: hidden;
+    margin-left: 115px;
+    margin-right: 115px;
+    padding: 55px 60px 96px 60px;
 }
 
 nav{
-    margin-left: 1200px;
-    display: inline-block;
-    font-size: 21px;
-}
-
-h1 , a { 
-    color: #fff;
+    float: right;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    
 }
 
 h1{
-    background-color: cornflowerblue;   
+    font-family: Arial, 'Roboto', sans-serif;  
     font-size: 40px;
-    display: inline-block;
+    float: left;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
