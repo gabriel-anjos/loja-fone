@@ -1,0 +1,64 @@
+.store-content1{
+    font-family:  'Roboto', sans-serif;
+    color: #fff ;
+    text-align: right;
+    display: inline-block;
+}
+.store-content2{
+    display: inline-block;
+}
+.name-product{
+text-align: left;
+font-size: 25px;
+
+}
+.stars{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: left;
+    }
+.star{
+    display: inline;
+    margin-right:9px ;
+}
+.star-score{
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.tags-description{
+    text-align:left;
+}
+.cost-tags{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 26px;
+    margin-right: 82px;
+   
+}
+.description{
+    font-size: 18px;
+    width: 556px;
+    text-align: left;
+    display: inline-block;
+    line-height: 30px;
+
+}
+.about{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 58px;
+}
+.buttons{
+    text-align: left;
+    margin-top: 98px;
+}
+.button1{
+    display: inline-block;
+    text-align: left;
+}
+
+.button2{
+    display: inline-block;
+    text-align: left;
+}
