@@ -1,36 +1,35 @@
-body{
-    background-color: cadetblue;
-    font-family:Arial, Helvetica, sans-serif
-}
 
 
 .header-store{
     
     color: white;
     overflow: hidden;
+    margin-bottom: 138px;
+    padding-left: 60px;
     
 }
 
-.navigation{
+.header-store > .navigation{
     float: right;
     font-family: 'Segoe UI', 'Roboto', sans-serif;
     
     
 }
 
-.title{
+.header-store > .title{
     font-family: Arial, 'Roboto', sans-serif;  
     font-size: 40px;
     float: left;
+    text-transform: uppercase;
 }
 
-.action{
+.header-store .action{
     text-decoration: none;
     color: inherit;
     margin-left: 28px;
 }
 
-.last {
+.header-store .action.-last {
     margin-right: 0;
 }
 
