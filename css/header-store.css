@@ -33,6 +33,29 @@
     margin-right: 0;
 }
 
+.header-store > .input-search{
+    
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    margin: 0 auto;
+}
+.search-box{
+    
+    text-align:left;
+    color: #FFF;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 358px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    padding-bottom: 8px;
+}
 
 
 
