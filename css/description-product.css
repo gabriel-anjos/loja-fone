@@ -6,13 +6,20 @@
 
 .description-product > .title{
     font-size: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .description-product > .item{
     font-size: 20px;
     margin-bottom: 28px;
 }
+.description-product > .item.-star{
+    margin-bottom: 10px;
+}
+.description-product > .item.-star + .item{
+    margin-left:  8px;
+}
+
 .description-product > .item.-info{
     width: 200px;
     text-align: right;
@@ -25,10 +32,15 @@
     text-transform: uppercase;
     float: left;
 }
+
 .description-product > .text{
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
+}
+
+.description-product > .text + .text.-more {
+    margin-bottom: 0;
 }
 
 .description-product .action{
