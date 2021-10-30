@@ -27,13 +27,21 @@
     font-size: 40px;
     float: left;
     text-transform: uppercase;
+    cursor: pointer;
+    
 }
 
 .header-store .action{
-    text-decoration: none;
+    text-decoration-color: transparent;
     color: inherit;
     margin-left: 28px;
+    transition: all 300ms ease;
 }
+
+.header-store .action:hover{
+    text-decoration: underline;
+}
+
 
 .header-store .action.-last {
     margin-right: 0;
