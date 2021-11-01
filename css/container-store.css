@@ -1,9 +1,23 @@
 .container-store{
     background-color:#e24647;
+    margin: 0 auto;
     padding: 55px 60px 166px 0px;   
     width: 90%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    max-width: 1330px;
+   
+}
+
+@media screen and (max-width:1410px){
+    .container-store{
+        width: 100%;
+        max-width: 100%;
+        }
+    .header-store{
+        margin-right: 60px;
+    }    
+}
+@media(max-width:490px) {
+    .container-store{
+        padding-right: 30px;
+    }
 }
