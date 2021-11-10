@@ -1,8 +1,13 @@
-const $heart = window.document.querySelector('.-heart');
+const $heart = document.querySelector('.-heart');
+const $Stars = document.querySelectorAll('.star');
 
-$heart.addEventListener('click', handleClick);
+$Stars[0].addEventListener('click', handleClickStar);
 
-function handleClick(){
+$heart.addEventListener('click', handleClickHeart);
+
+
+
+function handleClickHeart(){
 
     // if($heart.classList.contains('-active')){
     //     $heart.classList.remove('-active')
@@ -12,4 +17,8 @@ function handleClick(){
     // }
 
     $heart.classList.toggle('-active');
+}
+
+function handleClickStar(){
+    $Stars[0].classList.toggle('-active');
 }
