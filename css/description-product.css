@@ -21,17 +21,38 @@
     cursor: pointer;
 }
 
+.description-product > .item.-heart.-active{
+    background-color: white;
+    
+}
 
 .description-product > .item.-star{
     margin-bottom: 10px;
     cursor: pointer;
 }
 .description-product .icon{
-    transition: trasnform 100ms linear;
+    transition: trasnform 50ms linear;
 
 }
+
 .description-product .icon:hover{
     transform: scale(1.1);
+}
+
+.description-product .icon.-active{
+display: none;
+
+}
+
+.description-product > .item.-active .icon{
+display: none ;
+
+    
+}
+
+.description-product > .item.-active .icon.-active{
+display: block ;
+
 }
 
 .description-product > .item.-star + .item{
