@@ -23,6 +23,10 @@
     vertical-align: bottom;
 }
 
+.header-store[type='search']::placeholder{
+    color: inherit;
+}
+
 .header-store > .title{
     font-family: Arial, 'Roboto', sans-serif;  
     font-size: 40px;
@@ -62,6 +66,10 @@
     transform: scale(1);
 }
 @media (max-width: 1235px) {
+
+    .header-store{
+        margin-bottom: 70px;
+    }
     .header-store > .title{
         float: none;
         text-align: center;
