@@ -30,10 +30,10 @@ $Stars.forEach(function($star, key){
 // })
 
 function handleClick(){
-    $Stars.forEach(function($star){
-        $star.classList.remove('-active')
-    })
-    this.classList.add('-active');
+    $heart.classList.toggle('-active')
+        
+    }
+    
     // if($heart.classList.contains('-active')){
     //     $heart.classList.remove('-active')
     // }else{
@@ -42,7 +42,7 @@ function handleClick(){
     // }
 
     // $heart.classList.toggle('-active');
-}
+// }
 
 // function handleStar(){
 //     this.classList.toggle('-active');
