@@ -83,10 +83,20 @@
     }
 
 }
-@media (max-width:920px) {
+@media (max-width:955px) {
     .header-store [type='search']{
-        display: none;
+       position: absolute;
+       top: 0;
+       left: 0;
+       transform: translateX(-88%);
+       background-color: #fff;
+       color: black;
+       transition: transform 100ms linear;
     }
+    .header-store .-active[type='search']{
+        transition: transform 200ms linear;
+        transform: translateX(0);
+    }   
 }
 
 @media (max-width:490px) {
