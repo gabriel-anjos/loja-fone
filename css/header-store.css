@@ -1,4 +1,4 @@
-.header-store{
+    .header-store{
     color: white;
     overflow: hidden;
     margin-bottom: 138px;
@@ -64,6 +64,7 @@
 
 .header-store .action:hover::after {
     transform: scale(1);
+   
 }
 @media (max-width: 1235px) {
 
