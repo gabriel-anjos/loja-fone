@@ -30,8 +30,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        /* transform: translateX(-88%);
-        transition: transform 100ms linear; */
+        transform: translateX(calc(-100% + 40px));
+        transition: transform 100ms linear;
     }
 
     .input-search > .content {
@@ -50,8 +50,8 @@
         padding: 8px;
         vertical-align: middle;
     }
-    /* .input-search.-active {
+    .input-search.-active {
         transition: transform 200ms linear;
         transform: translateX(0);
-    }    */
+    }   
 }
