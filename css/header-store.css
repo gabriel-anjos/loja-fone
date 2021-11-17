@@ -10,22 +10,7 @@
     font-family: 'Segoe UI', 'Roboto', sans-serif;
     font-size: 21px;
 }
-.header-store [ type='search']{
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: inherit;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 8px;
-    width: 358px;
-    margin-right: 65px;
-    vertical-align: bottom;
-}
 
-.header-store[type='search']::placeholder{
-    color: inherit;
-}
 
 .header-store > .title{
     font-family: Arial, 'Roboto', sans-serif;  
@@ -83,21 +68,7 @@
     }
 
 }
-@media (max-width:955px) {
-    .header-store [type='search']{
-       position: absolute;
-       top: 0;
-       left: 0;
-       transform: translateX(-88%);
-       background-color: #fff;
-       color: black;
-       transition: transform 100ms linear;
-    }
-    .header-store .-active[type='search']{
-        transition: transform 200ms linear;
-        transform: translateX(0);
-    }   
-}
+
 
 @media (max-width:490px) {
     .header-store .navigation {
