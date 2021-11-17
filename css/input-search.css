@@ -33,6 +33,10 @@
         transform: translateX(calc(-100% + 40px));
         transition: transform 100ms linear;
     }
+    .input-search.-active {
+        transition: transform 200ms linear;
+        transform: translateX(0);
+    }   
 
     .input-search > .content {
         margin-right: 0;
@@ -42,7 +46,7 @@
     }
 
     .input-search > .icon{
-        display: inline-block;
+        display: none;
         background-color: white;
         box-sizing: border-box;
         width: 40px;
@@ -50,10 +54,9 @@
         padding: 8px;
         vertical-align: middle;
     }
-    .input-search.-active {
-        transition: transform 200ms linear;
-        transform: translateX(0);
-    }   
+    .input-search > .icon.-active{
+        display: inline-block;
+    }
 }
 
 @media(max-width:400px) {
