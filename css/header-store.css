@@ -21,19 +21,27 @@
     
 }
 
-.header-store .action{
+.header-store .item{
     display: inline-block;
+    margin-right: 60px;
+    padding-bottom: 8px ;
+}
+.header-store .item.-menu{
+    display: none;
+}
+
+.header-store .item.-last {
+    margin-right: 0;
+}
+
+.header-store .action{
     text-decoration: none;
     color: inherit;
-    margin-left: 28px;
-    padding-bottom: 8px ;
     position: relative;
    
 }
 
-.header-store .action.-last {
-    margin-right: 0;
-}
+
 .header-store .action::after{
     content: "";
     height: 1px;
@@ -68,16 +76,20 @@
     }
 
 }
-
+@media (max-width:525px){
+    .header-store .item{
+        margin-right: 20px;
+    }
+}
 
 @media (max-width:490px) {
     .header-store .navigation {
         margin: 0 auto;
     }
-   .navigation .action:nth-child(2){
+   .navigation .item{
         margin-left: 0;
     }
-    .header-store .action {
+    .header-store .item {
         /* background-color: green; */
         margin-right: 5px; 
     }
@@ -88,16 +100,53 @@
     }
 }
 @media (max-width:355px) {
-    .header-store .action{
+    .header-store .item{
         margin-left: 2px ;
     }
 }
 
 @media (max-width:335px){
-     .header-store  .action{
-         display: none;
-        }
+    .header-store .item.-menu{
+        display: block;
+        box-sizing: border-box;
+        width: 40px;
+        height: 40px; 
+        background: url(../img/menu2.svg)  #fff no-repeat center ;
+        margin: 0;
+        text-indent: -9999px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%); 
+        transition: transform 400ms 200ms linear;
+        cursor: pointer;
+    } 
+    .header-store .list{
+        background-color: #fff;
+        color: #000;
+        padding: 40px 0 20px;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+        transition: transform 200ms linear;
+
     }
+    .header-store .list.-active {
+        transform: translateX(0);
+    }
+    .header-store .list.-active .item.-menu{
+        transform:translateX(0);
+        background-image: url(../img/close.svg);
+        background-size: 65%;
+        transition: none;
+    }
+
+    .header-store .item{
+        display: block;
+    }   
+}
 
 
 
