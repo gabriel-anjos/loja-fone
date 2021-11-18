@@ -21,10 +21,7 @@
     cursor: pointer;
 }
 
-.description-product > .item.-heart.-active{
-    background-color: white;
-    
-}
+
 
 .description-product > .item.-star{
     margin-bottom: 10px;
@@ -135,6 +132,7 @@ display: block ;
 
 @media (max-width:475px){
     .description-product > .item.-heart{
-     position: static;   
+     position: static;
+     height: 32px;
     }
 }

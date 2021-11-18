@@ -1,5 +1,5 @@
 .input-search{
-    display: inline-block;
+    display:inline-block;
 }
 
 
@@ -61,7 +61,7 @@
 
 @media(max-width:400px) {
     .input-search > .content{
-        width: 80vw;
+        width: 70vw;
     }
 }
 

@@ -11,6 +11,9 @@
     font-size: 21px;
 }
 
+.header-store .navigation .list{
+    display: inline-block;
+}
 
 .header-store > .title{
     font-family: Arial, 'Roboto', sans-serif;  
