@@ -1,7 +1,9 @@
 .description-product{
     color:#fff;
    font-family:Arial, Helvetica, sans-serif;
-   width: 554px;
+   /* width: 554px; */
+   width: 100%;
+ 
 }
 
 .description-product > .title{

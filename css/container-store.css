@@ -4,7 +4,7 @@
     padding: 55px 60px 166px 0px;   
     width: 90%;
     max-width: 1330px;
-   
+    box-shadow:  0 0 39px 0 rgba(50, 50, 50, 0.36);
 }
 
 @media screen and (max-width:1410px){

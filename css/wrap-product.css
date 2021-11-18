@@ -1,26 +1,42 @@
 .wrap-product{
-    width: 554px;
+    width: 454px;
     display: inline-block;
     vertical-align: middle;
     position: relative;
+    
 }
 .wrap-product > .buttons{
     position: absolute;
     bottom:0px ;
     transform: translateY(calc(100% + 98px));
+    width: 100%;
 }
 
+ .buttons  .button-store{
+    float: right;
+}
+
+ .buttons > .button-store.-second{
+    float: left;
+}
  @media (max-width:1310px) {
     .wrap-product{
         width: 100%;
+        
     }
     .wrap-product > .buttons{
         position: static;
         width: 100%;
-    
         margin: 0 auto;
         text-align: center;
         transform: none;
+    }
+    .wrap-product .button-store{
+        float: none;
+    }
+    .wrap-product .button-store.-second{
+        float: none;
+        margin-right: 38px;
     }
         
 }    
